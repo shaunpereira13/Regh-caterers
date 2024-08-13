@@ -1,0 +1,15 @@
+.pointer{
+    display: flex;
+    gap:10px;
+    align-items: center;
+    
+}
+.pointer img{
+    max-width: 18px;
+    max-height: 18px;
+    box-shadow: none;
+}
+.pointer h2{
+    font-weight: 200;
+    font-size: 18px;
+}

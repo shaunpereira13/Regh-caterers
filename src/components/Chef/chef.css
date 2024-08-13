@@ -1,0 +1,35 @@
+.chef img{
+    width:80vw;
+    height: 40vw;
+    border-radius: 5%;
+}
+.chef{
+    padding:50px 100px;
+    display:flex;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+.desc{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 50px;
+}
+.desc h1{
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 78px;
+    padding-bottom: 20px;
+}
+.desc p{
+    font-size: 20px;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+.desc ul{
+    font-size: 20px;
+    font-weight: 300;
+    padding-bottom: 20px;
+    /* list-style:url('../../assets/Fire.png'); */
+    list-style:disc;
+    list-style-position: inside;
+}
