@@ -1,10 +1,12 @@
 import "./App.css";
-import Menu from "./pages/Menu";
+/*import Menu from "./components/Pages/Menu";*/
+import OurServices from "./components/Pages/OurServices";
 
 function App() {
   return (
     <div className="App">
-      <Menu />
+      {/* <menu/> */}
+      <OurServices />
     </div>
   );
 }

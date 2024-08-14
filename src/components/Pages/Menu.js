@@ -1,12 +1,12 @@
 import React from "react";
-import { MenuList } from "../helpers/MenuList";
-import MenuItem from "../components/MenuItem";
-import "../styles/menu.css";
+import { MenuList } from "../MenuList";
+import MenuItem from "../MenuItem";
+import "../../styles/menu.css";
 
 function Menu() {
   return (
     <div className="menu">
-      <h1 className="menuTitle">Our Menu</h1>
+      <h1 className="menuTitle"> Our Menu </h1>
       <h2 className="menudescription">
         <p>
           max verstappen is and will be the best formula1 driver after sebestian
@@ -14,11 +14,9 @@ function Menu() {
         </p>
       </h2>
       <div className="Buttons">
-        <button>All</button>
-        <button>Starters</button>
-        <button>Main course</button>
-        <button>Desert</button>
-        <button>Salad</button>
+        <button> All </button> <button> Starters </button>
+        <button> Main course </button> <button> Desert </button>
+        <button> Salad </button>
       </div>
       <div className="menuList">
         {MenuList.map((menuitem, key) => {
