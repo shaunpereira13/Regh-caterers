@@ -1,0 +1,190 @@
+.footer-container
+{
+    color:white;
+    background: rgba(0, 0, 0, 1);
+    padding: 4rem 0 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'DM Sans', sans-serif;
+    width:100%;
+    height:80vh;
+    margin:0 auto;
+}
+
+.footer-row-1
+{
+    display: flex;
+    gap:4.5rem;
+    margin-bottom:1rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    justify-content: center;
+}
+
+.footer-column-1
+{
+    width:30%;
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+    left:0;
+    
+}
+
+.footer-column-2, .footer-column-3
+{
+    margin-top:30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap:1rem;
+}
+.footer-column-4
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap:10%;
+    width:30%;
+}
+
+.footer-row-2
+{
+    margin-top:9%;
+    width:90%;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-row-2 p 
+{
+    margin-top: 10px;    
+    color: rgba(173, 178, 158, 1);
+
+}
+
+hr
+{
+    border: 0;
+    border-top: 2px solid rgba(65, 69, 54, 1);
+    ;
+
+}
+
+.insta-posts
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    grid-gap: 15px; /* Space between the images */
+    width:350px;
+   
+}
+
+.insta-posts img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+b
+{
+    font-family: playfair;
+}
+
+.social-media
+{
+    display: flex;
+    gap:10px;
+}
+
+.datas{
+    display: flex;
+    gap:4.5rem;
+}
+@media screen and (max-width:768px)
+{
+.footer-container
+{
+    color:white;
+    background: rgba(0, 0, 0, 1);
+    padding-top: 2rem ;
+    justify-content: center;
+    align-items: center;
+    font-family: 'DM Sans', sans-serif;
+    width:100%;
+    height:90vh;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-row-1
+{
+    display: inline;
+}
+
+.insta-posts
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    grid-gap: 15px; /* Space between the images */
+    width:250px;
+   
+}
+
+.insta-posts img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.footer-column-1
+{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    /* margin: 0 auto; */
+    gap:25px;
+    left:0;
+    
+}
+
+/* .footer-column-2
+{
+    display: flex;
+    justify-content: center;
+    gap:10%;
+} */
+.footer-column-4
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap:10%;
+    width:100%;
+    margin-top: 2rem;
+}
+
+.footer-row-2
+{
+    margin-top:9%;
+    width:90%;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-row-2 p 
+{
+    margin-top: 10px;    
+    color: rgba(173, 178, 158, 1);
+
+}
+
+.datas
+{
+    display: flex;
+    
+}
+
+}

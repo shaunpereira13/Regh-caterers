@@ -1,0 +1,34 @@
+.color-button
+{
+    margin: 0;
+}
+.color-button
+{
+    background-color:green;
+    color:white;
+    border-radius:11px;
+    padding-inline: 2.5rem;
+    padding-block: 7px;
+    font-weight: 700;
+}
+
+.color-button{
+    display: flex;
+    align-items: center;
+    gap:10px;
+
+}
+
+.color-button:hover
+{
+    background: rgba(20, 139, 46, 0);
+    color:green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:11px;
+    padding-inline: 2.4rem;
+    padding-block: 7px;
+    font-weight: 700;
+    border: 2px solid green;
+}

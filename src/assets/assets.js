@@ -12,15 +12,36 @@ import diet from "./diet.png";
 import chef from "./chef.png";
 import menupointer from "./menu-pointer.png";
 import menupointerdeactive from "./menu-pointer-deactive.png";
+import trucktick from './truck-tick.png';
+import fb from './fb.png'
+import git from './git.png'
+import herobanner from './herobanner.png'
+import insta from './insta.png'
+import logofooter from './logo_footer.png'
+import newlogo from './new_logo.png'
+import twitter from './twitter.png'
 
 export const symbols={
   flame,
   chef,
   menupointer,
   menupointerdeactive,
+  trucktick,
+  fb,
+  git,
+  insta,
+  twitter,
+  newlogo,
+  herobanner,
+  logofooter
 }
 
+
+
+
+
 export const assets = [
+
     {
       name:"Asian",
       image: asian,
