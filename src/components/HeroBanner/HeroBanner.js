@@ -14,8 +14,7 @@ function HeroBanner() {
             <img src={symbols.flame}/>
             <p>Best Catering Service</p>
         </div>
-        <h1>Special occasion </h1>
-        <h1>deserves Special foode </h1><br></br>
+        <h1>Special occasion <br></br>deserves Special foode </h1>
         <p className='p-font'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br/>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim </p>
         <div className='buttons'>
             <Button1 data="Order Now" path={symbols.trucktick}></Button1>

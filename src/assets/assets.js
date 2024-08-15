@@ -20,6 +20,7 @@ import insta from './insta.png'
 import logofooter from './logo_footer.png'
 import newlogo from './new_logo.png'
 import twitter from './twitter.png'
+import foods from './foods.png'
 
 export const symbols={
   flame,
@@ -33,7 +34,8 @@ export const symbols={
   twitter,
   newlogo,
   herobanner,
-  logofooter
+  logofooter,
+  foods
 }
 
 
