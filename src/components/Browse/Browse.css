@@ -1,11 +1,11 @@
-.menu-list{
+.menu{
     display:flex;
     list-style: none;
     gap:90px;
     font-size:18px;
     padding-bottom: 20px;
 }
-.menu-list img{
+.menu img{
     padding-right: 10px;
     height: 1.5vw;
 }
@@ -13,7 +13,7 @@
     color:#148B2D;
     ;
 }
-.menu-list li{
+.menu li{
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -33,5 +33,49 @@
     line-height: 78px;
     padding-bottom: 20px;
 }
+.menu-list{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 50px;
+    margin-top: 50px;
+}
+.menu-list-item{
+    display: flex;
+    flex-direction: column;
+    padding:30px;
+    background-color: #F6FFFD;
+    border: 1px solid #c8c0c0;
+    border-radius: 20px;
+    color:#034833;
+}
+.menu-list-item img{
+    border-radius: 50%;
+    width:15vw;
+    height: 15vw;
+    margin-bottom: 20px;
+}
+.menu-list-item-name{
+    font-size: 1.8vw;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.menu-list-item-desc{
+    padding-bottom: 15px;
+    text-align: left;
+}
+.menu-list-item-amt{
+    text-align: left;
+    font-size: 1vw;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
 
-
+.menu-list-item button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #148B2D;
+    margin-top: 0.5vw;
+    color:white;
+    width: 10vw;
+    margin-left: 18%;
+}

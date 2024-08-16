@@ -4,8 +4,8 @@ import pkg3 from "./package3.png";
 import pkg4 from "./package4.png";
 
 export const packages = [
-  { name: "package1", image: pkg1,desc:"this is a package" },
-  { name: "package2", image: pkg2,desc:"this is a package" },
-  { name: "package3", image: pkg3,desc:"this is a package" },
-  { name: "package4", image: pkg4 ,desc:"this is a package" },
+  { name: "Package1", image: pkg1, description:"this is a package", amount:10000},
+  { name: "Package2", image: pkg2, description:"this is a package", amount:8000 },
+  { name: "Package3", image: pkg3, description:"this is a package", amount:6000 },
+  { name: "Package4", image: pkg4, description:"this is a package", amount:4000 },
 ];
