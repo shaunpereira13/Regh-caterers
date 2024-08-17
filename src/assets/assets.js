@@ -21,6 +21,11 @@ import logofooter from './logo_footer.png'
 import newlogo from './new_logo.png'
 import twitter from './twitter.png'
 import foods from './foods.png'
+import egg from './egg.png'
+import fries from './fries.png'
+import pancakes from './pancakes.png'
+import masalafries from './masalafries.png'
+
 
 export const symbols={
   flame,
@@ -35,10 +40,15 @@ export const symbols={
   newlogo,
   herobanner,
   logofooter,
-  foods
+  foods,
 }
 
-
+export const food = {
+  egg,
+  fries,
+  pancakes,
+  masalafries,
+}
 
 
 

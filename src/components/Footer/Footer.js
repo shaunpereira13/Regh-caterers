@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 import Logo from '../Logo/Logo'
 import './Footer.css'
-import { symbols } from '../../assets/assets'
+import { food, symbols } from '../../assets/assets'
 
 function Footer() {
   const [click,setClick]=useState(null)
@@ -41,16 +41,16 @@ function Footer() {
               <p><b>Follow Us On Instagram</b></p><br></br>
               <div className='insta-posts'>
                   <div className='item-1'>
-                    <img src="../images/eiliv-aceron-d5PbKQJ0Lu8-unsplash 1.png"></img>
+                    <img src={food.egg}></img>
                   </div>
                   <div className='item-2'>
-                  <img src="../images/pexels-ash-376464 1.png"></img>
+                  <img src={food.fries}></img>
                   </div>
                   <div className='item-3'>
-                    <img src="../images/pexels-ella-olsson-1640772 1.png"></img>
+                    <img src={food.pancakes}></img>
                   </div>
                   <div className='item-4'>
-                    <img src="../images/pexels-steve-3789885 1.png"></img>
+                    <img src={food.masalafries}></img>
                   </div>
               </div>
       

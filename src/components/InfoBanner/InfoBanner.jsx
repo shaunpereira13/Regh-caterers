@@ -4,12 +4,14 @@ import './InfoBanner.css'
 
 function InfoBanner() {
   return (
-    <>
+    <div className='infobanner'>
         <div className='Banner'>
             <div className='content'>
-                <h2>A little information for our valuable guest</h2>
+                <h1>A little information for our valuable guest</h1>
+                <br></br>
                 <p>At place, we believe that dining is not just about food, but also about the overall experience. Our staff, renowned for their warmth and dedication, strives to make every visit an unforgettable event.</p>
-                <div className='info-card'>
+                <div className="info-grid">
+                <div className="info-card">
                   <h2>Free</h2>
                   <p>Delivery</p>
                 </div>
@@ -25,13 +27,14 @@ function InfoBanner() {
                   <h2>100%</h2>
                   <p>Satisfied Customers</p>
                 </div>
-              </div>
+                </div>
+            </div>
               <div className='image'>
                   <img src={symbols.foods}></img>
               </div>
-            </div>
-
-    </>
+          
+          </div>
+    </div>
   )
 }
 

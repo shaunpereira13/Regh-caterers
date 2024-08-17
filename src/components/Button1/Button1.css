@@ -10,6 +10,7 @@
     padding-inline: 2.5rem;
     padding-block: 7px;
     font-weight: 700;
+    min-width: 30%;
 }
 
 .color-button{

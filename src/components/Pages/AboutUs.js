@@ -3,7 +3,7 @@ import InfoBanner from '../InfoBanner/InfoBanner';
 
 function AboutUs() {
   return (
-    <div>AboutUs
+    <div style={{margin:'0 auto'}}>
         <InfoBanner></InfoBanner>
     </div>
     
