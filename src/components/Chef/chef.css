@@ -1,6 +1,6 @@
 .chef img{
     width:80vw;
-    height: 40vw;
+    height: 30vw;
     border-radius: 5%;
 }
 .chef{
@@ -32,4 +32,10 @@
     /* list-style:url('../../assets/Fire.png'); */
     list-style:disc;
     list-style-position: inside;
+}
+
+li
+{
+    list-style-type: none;
+    margin-bottom: 15px;
 }

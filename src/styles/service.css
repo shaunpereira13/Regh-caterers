@@ -14,7 +14,8 @@
   bottom: 0;
   width: 500px;
   /* Adjust the width to match the image width */
-  background-image: url("../assets/sidebanner.png");
+  /* background-image: url("../assets/sidebanner.png"); */
+  background-color:   #F9F9F7; 
   opacity: 0.2;
   /* Replace with your image path */
   background-repeat: repeat-y;
