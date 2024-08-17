@@ -1,6 +1,6 @@
 import React from "react";
 import Pointer from '../Pointer/Pointer'
-import {assets,symbols} from '../../assets/assets'
+import {assets} from '../../assets/assets'
 import './Delicious.css'
 
 

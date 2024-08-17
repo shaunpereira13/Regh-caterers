@@ -1,5 +1,5 @@
 import React,{useState} from "react";
-import { symbols } from "../../assets/assets";
+import { symbols } from "../../../public/assets/assets";
 import "./Browse.css";
 import Pointer from "../Pointer/Pointer";
 import { packages } from "./helper";
