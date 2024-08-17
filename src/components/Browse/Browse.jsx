@@ -14,11 +14,12 @@ const Browse = () => {
         <li onClick={()=>setMenu('birthday')} className={menu==="birthday"?"active":""}> <img src={menu==="birthday"?symbols.menupointer:symbols.menupointerdeactive} alt="" />Brithdays</li>
         <li onClick={()=>setMenu('wedding')} className={menu==="wedding"?"active":""}> <img src={menu==="wedding"?symbols.menupointer:symbols.menupointerdeactive} alt="" />Weddings</li>
         <li onClick={()=>setMenu('ladin')} className={menu==="ladin"?"active":""}> <img src={menu==="ladin"?symbols.menupointer:symbols.menupointerdeactive} alt="" />Ladin</li>
-        <li onClick={()=>setMenu('coporate')} className={menu==="corporate"?"active":""}> <img src={menu==="coporate"?symbols.menupointer:symbols.menupointerdeactive} alt="" />Corporate</li>
+        <li onClick={()=>setMenu('coporate')} className={menu==="coporate"?"active":""}> <img src={menu==="coporate"?symbols.menupointer:symbols.menupointerdeactive} alt="" />Corporate</li>
         <li onClick={()=>setMenu('party')} className={menu==="party"?"active":""}> <img src={menu==="party"?symbols.menupointer:symbols.menupointerdeactive} alt="" />Party</li>
         <li onClick={()=>setMenu('school')} className={menu==="school"?"active":""}> <img src={menu==="school"?symbols.menupointer:symbols.menupointerdeactive} alt="" />Schools</li>
       </ul>
       <div className="menu-list">
+            
             {packages.map((item,index)=>{
                 return (
                     <div key={index} className="menu-list-item">
