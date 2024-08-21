@@ -6,10 +6,8 @@
     display: flex;
     width:80%;
     margin:80px auto;
- 
-    
-
 }
+
 .info-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -18,7 +16,6 @@
  
   margin-top:50px;
 }
-
 
 .info-card {
     background-color: #ffffff;
@@ -44,6 +41,9 @@
   {
     font-size: 55px;
     font-family: playfair;
+    font-weight: 500;
+    font-size: 60px;
+    
   }
 
   .content

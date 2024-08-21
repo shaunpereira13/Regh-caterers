@@ -7,7 +7,7 @@ import './chef.css'
 const Chef=()=>{
     return(
         <div className="chef">
-            <img src={symbols.chef} alt="" />
+            <img src={symbols.Rectangle8 } className="chefs" alt="" />
             <div className="desc">
                 <Pointer title="Best Chef Service"/>
                 <h1>Chef at Catering</h1>

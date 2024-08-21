@@ -25,7 +25,11 @@ import egg from './egg.png'
 import fries from './fries.png'
 import pancakes from './pancakes.png'
 import masalafries from './masalafries.png'
-
+import Rectangle8 from './Rectangle 8.png'
+import Vector3 from './Vector 3.png'
+import Customer1 from './Customer1.png'
+import Customer2 from './Customer2.png'
+import Customer3 from './Customer3.png'
 
 export const symbols={
   flame,
@@ -41,6 +45,8 @@ export const symbols={
   herobanner,
   logofooter,
   foods,
+  Rectangle8,
+  Vector3
 }
 
 export const food = {
@@ -48,6 +54,12 @@ export const food = {
   fries,
   pancakes,
   masalafries,
+}
+
+export const customer={
+  Customer1,
+  Customer2,
+  Customer3
 }
 
 

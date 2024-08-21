@@ -24,11 +24,11 @@
 .services-list-item{
     background-color: rgb(240, 255, 241);
     border-radius: 10%;
-    padding:10px;
+    padding:20px;
     text-align:center;
 }
 .services-list-item-p{
-    text-align: left;
+    text-align: center;
     font-size: 15px;
     font-weight: 200;
 }

@@ -1,0 +1,35 @@
+.statistics {
+    display: flex;
+    justify-content: space-between;
+    gap: 10%;
+    padding: 80px;
+    max-width: 1500px;
+    margin: 10px auto;
+    text-align: center;
+  }
+
+  
+  .stat-item h3 {
+    color: green;
+    font-size: 80px;
+    font-weight: 400;
+    margin-bottom: 5px;
+  }
+  
+  .stat-item p {
+    color: #666;
+}
+
+.line
+{
+    width:1400px;
+    justify-content: center;
+    
+}
+
+.lineclass
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
