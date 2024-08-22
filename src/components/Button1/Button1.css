@@ -8,7 +8,7 @@
     color:white;
     border-radius:11px;
     padding-inline: 2.5rem;
-    padding-block: 0.7vh;
+    padding-block: 7px;
     font-weight: 700;
     min-width: 30%;
 }
@@ -33,4 +33,3 @@
     font-weight: 700;
     border: 2px solid green;
 }
-

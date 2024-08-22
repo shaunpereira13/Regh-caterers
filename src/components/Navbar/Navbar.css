@@ -50,12 +50,12 @@ body{
 {
      display: grid;
     grid-template-columns:repeat(7,auto);
-    grid-gap:3.75rem; 
+    grid-gap:60px; 
     list-style:none;
     text-align: center;
     /* width:50vw; */
     justify-content: end;
-    /* margin-right:2rem; */
+    margin-right:2rem;
 }
 
 .navbar-logo
@@ -204,48 +204,4 @@ body{
       
 
 
-}
-
-@media (max-width: 1250px) {
-  .navbar-logo-m
-  {
-      width:80%;
-  }
-
-  .nav-menu{
-    grid-gap:2.75rem;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .nav-menu {
-      grid-template-columns: repeat(7, auto);
-      grid-gap: 2.5rem;
-  }
-
-  .fa-typo3 {
-      font-size: 1.5rem;
-  }
-  .nav-item
-  {
-    font-size:90%;
-  }
-}
-
-
-@media screen and (max-width:1155px)
-{
-  .navbar-logo-m
-  {
-      width:80%;
-  }
-
-  .nav-menu{
-    grid-gap:2.2rem;
-  }
-
-  .nav-item
-  {
-    font-size:80%;
-  }
 }

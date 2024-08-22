@@ -17,7 +17,7 @@ function HeroBanner() {
         <h1>Special occasion <br></br>deserves Special food </h1>
         <p className='p-font'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br/>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim </p>
         <div className='buttons'>
-            <Button2 data="Order Now" path={symbols.trucktick}></Button2>
+            <Button1 data="Order Now" path={symbols.trucktick}></Button1>
             <Button2 data="View More"></Button2>
         </div>
         </div>

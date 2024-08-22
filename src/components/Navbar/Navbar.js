@@ -63,7 +63,7 @@ function Navbar() {
                     <Link to='/contact' className='nav-links' style={linkStyle('/contact')} onClick={closeMobileMenu}>Contact Us</Link>
                 </li>
               
-                <li className='nav-item' onLoad={showButton}>
+                <li className='nav-item' onCoad={showButton}>
                     <Button1 data="(+91) 9999999999" path={symbols.trucktick}></Button1>
                 </li>
             </ul>
