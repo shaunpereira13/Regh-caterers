@@ -1,28 +1,25 @@
-.non-color-button
-{
+.non-color-button {
     background: rgba(20, 139, 46, 0);
-    color:green;
+    color: green;
     display: flex;
     justify-content: center;
     align-items: center;
     border: 2px solid green;
-    border-radius:11px;
+    border-radius: 11px;
     padding-inline: 2.5rem;
     padding-block: 7px;
     font-weight: 700;
-    margin:0;
+    margin: 0;
+    gap: 10px; /* Adjusted gap */
+    width: max-content;
 }
 
-.non-color-button:hover
-{
+.non-color-button:hover {
     background: green;
-    color:rgb(255, 255, 255);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius:11px;
-    padding-inline: 2.5rem;
-    padding-block: 7px;
-    font-weight: 700;
-    margin:0;
+    color: rgb(255, 255, 255);
+}
+
+.non-color-button img {
+    width: 20px; /* Adjust image size */
+    height: auto;
 }
