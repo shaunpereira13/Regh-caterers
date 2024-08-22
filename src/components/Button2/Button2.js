@@ -6,7 +6,6 @@ function Button2(props) {
     <div  className='non-color-button'>
         <p>{props.data}</p>
     </div>
-
   )
 }
 

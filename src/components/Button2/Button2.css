@@ -1,5 +1,4 @@
-.non-color-button
-{
+.non-color-button{
     background: rgba(20, 139, 46, 0);
     color:green;
     display: flex;

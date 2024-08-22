@@ -4,6 +4,7 @@ import groupOfPeople from '../../assets/group-of-people.png';
 import { symbols } from '../../assets/assets';
 import Pointer from '../Pointer/Pointer';
 import Vector3 from '../Vector 3/Vector3';
+import Button2 from '../Button2/Button2'
 
 const ContactInfo = () => {
   return (
@@ -30,7 +31,7 @@ const ContactInfo = () => {
         <p>
           At place, we believe that dining is not just about food, but also about the overall experience. Our staff, renowned for their warmth and dedication, strives to make every visit an unforgettable event.
         </p>
-        <button>More about us</button>
+        <Button2 data="More about us"/>
       </div>
     </div>
     </div>
