@@ -1,9 +1,7 @@
 import React from 'react';
 import './ContactInfo.css';
 import groupOfPeople from '../../assets/group-of-people.png'; 
-import { symbols } from '../../assets/assets';
 import Pointer from '../Pointer/Pointer';
-import Vector3 from '../Vector 3/Vector3';
 import Button2 from '../Button2/Button2'
 
 const ContactInfo = () => {
