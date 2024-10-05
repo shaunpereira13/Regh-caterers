@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/Regh-caterers/static/css/main.23b77aac.css",
+    "main.js": "/Regh-caterers/static/js/main.06aa8caa.js",
+    "static/media/group-of-people.png": "/Regh-caterers/static/media/group-of-people.71296afabf5f70c1962e.png",
+    "static/media/herobanner.png": "/Regh-caterers/static/media/herobanner.f4561e1e42d43dec35ad.png",
+    "static/media/burger.png": "/Regh-caterers/static/media/burger.1e65c79cba1787b7280e.png",
+    "static/media/pizza.png": "/Regh-caterers/static/media/pizza.c7be04ae3b54679b523a.png",
+    "static/media/bar.png": "/Regh-caterers/static/media/bar.ce89044c446e4a865e8d.png",
+    "static/media/foods.png": "/Regh-caterers/static/media/foods.48c553569868667039fc.png",
+    "static/media/cheesecake.png": "/Regh-caterers/static/media/cheesecake.acdbd4bf8b50148cad05.png",
+    "static/media/wine.png": "/Regh-caterers/static/media/wine.b92a05690ef944333893.png",
+    "static/media/pie.png": "/Regh-caterers/static/media/pie.91fa461520872fe28990.png",
+    "static/media/mojita.png": "/Regh-caterers/static/media/mojita.65400313adf392b4712d.png",
+    "static/media/icecream.png": "/Regh-caterers/static/media/icecream.be4cb4cd99f8a2176092.png",
+    "static/media/service.png": "/Regh-caterers/static/media/service.c0e970321804e479f3e4.png",
+    "static/media/Rectangle 8.png": "/Regh-caterers/static/media/Rectangle 8.cbfbab986bdd0a416e8d.png",
+    "static/media/chef.png": "/Regh-caterers/static/media/chef.2e6790c5dc07a4bd0e1b.png",
+    "static/media/masalafries.png": "/Regh-caterers/static/media/masalafries.15bdaabc6f1b78452ec5.png",
+    "static/media/salad.png": "/Regh-caterers/static/media/salad.4eb42ce3d47f02088062.png",
+    "static/media/ice.png": "/Regh-caterers/static/media/ice.cd8a33bd0d6c43075ee0.png",
+    "static/media/goan.png": "/Regh-caterers/static/media/goan.10ea511d1430cb11a4ff.png",
+    "static/media/pancakes.png": "/Regh-caterers/static/media/pancakes.250c4540a4072ebe6333.png",
+    "static/media/asian.png": "/Regh-caterers/static/media/asian.c14579d660f2c573eee1.png",
+    "static/media/diet.png": "/Regh-caterers/static/media/diet.363875d44e88a9a9e706.png",
+    "static/media/fries.png": "/Regh-caterers/static/media/fries.aaaae6861e36300ce9f4.png",
+    "static/media/king.png": "/Regh-caterers/static/media/king.fa370c75e9b7917095a2.png",
+    "static/media/barbeque.png": "/Regh-caterers/static/media/barbeque.0c8308fe0850387e963f.png",
+    "static/media/drinks.png": "/Regh-caterers/static/media/drinks.571ee448479b65375817.png",
+    "static/media/egg.png": "/Regh-caterers/static/media/egg.fdb0cde184d8ad2c6631.png",
+    "static/media/buffet.png": "/Regh-caterers/static/media/buffet.44cc62e8510a2b7ffeee.png",
+    "static/media/Customer3.png": "/Regh-caterers/static/media/Customer3.1db26bcd69ea650d6c91.png",
+    "index.html": "/Regh-caterers/index.html",
+    "main.23b77aac.css.map": "/Regh-caterers/static/css/main.23b77aac.css.map",
+    "main.06aa8caa.js.map": "/Regh-caterers/static/js/main.06aa8caa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23b77aac.css",
+    "static/js/main.06aa8caa.js"
+  ]
+}
