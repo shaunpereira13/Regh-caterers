@@ -1,57 +1,95 @@
-.infobanner{
-  background: #F9F9F7;
+.infobanner {
+  background: #f9f9f7; /* Light background color */
 }
-.Banner
-{
-    display: flex;
-    width:80%;
-    margin:80px auto;
+
+.Banner {
+  display: flex; /* Flexbox for layout */
+  width: 80%; /* Set width */
+  margin: 80px auto; /* Center the banner */
 }
 
 .info-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 30px;
-  max-width: 800px;
- 
-  margin-top:50px;
+  display: grid; /* Grid layout for info cards */
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  gap: 30px; /* Gap between cards */
+  max-width: 800px; /* Max width */
+  margin-top: 50px; /* Space above grid */
 }
 
 .info-card {
-    background-color: #ffffff;
-    border-radius: 8px;
-    padding: 25px 10px;
-    text-align: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff; /* Card background color */
+  border-radius: 8px; /* Rounded corners */
+  padding: 25px 10px; /* Padding inside cards */
+  text-align: center; /* Center text */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Card shadow */
+}
+
+.info-card h2 {
+  margin: 0; /* Remove default margin */
+  font-size: 2rem; /* Heading size */
+  font-weight: bold; /* Bold heading */
+}
+
+.info-card p {
+  margin: 10px 0 0; /* Margin for paragraph */
+  font-size: 1rem; /* Paragraph font size */
+  color: #777; /* Paragraph color */
+}
+
+h1,
+h2 {
+  font-size: 55px; /* Size for h1 and h2 */
+  font-family: playfair; /* Font family */
+  font-weight: 500; /* Font weight */
+}
+
+.content {
+  justify-content: center; /* Center content */
+  padding: 3rem; /* Padding around content */
+}
+
+img {
+  height: 90%; /* Image height */
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .Banner {
+    flex-direction: column; /* Stack items vertically */
+    width: 90%; /* Increase width for smaller screens */
+    margin: 40px auto; /* Adjust margin */
   }
-  
-  .info-card h2 {
-    margin: 0;
-    font-size: 2rem;
-    font-weight: bold;
+
+  .info-grid {
+    grid-template-columns: 1fr; /* Single column on smaller screens */
   }
-  
+
+  .info-card {
+    padding: 15px; /* Reduce padding */
+  }
+
+  h1,
+  h2 {
+    font-size: 40px; /* Smaller heading size */
+  }
+
+  img {
+    height: auto; /* Set height to auto for responsiveness */
+    max-width: 100%; /* Ensure images fit within their container */
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .Banner {
+    margin: 20px auto; /* Further reduce margin */
+  }
+
+  h1,
+  h2 {
+    font-size: 30px; /* Further reduce heading size */
+  }
+
   .info-card p {
-    margin: 10px 0 0;
-    font-size: 1rem;
-    color: #777;
+    font-size: 0.9rem; /* Smaller paragraph font size */
   }
-
-  h1, h2
-  {
-    font-size: 55px;
-    font-family: playfair;
-    font-weight: 500;
-    font-size: 60px;
-    
-  }
-
-  .content
-  {
-    justify-content: center;
-    padding:3rem
-  }
-
-  img{
-    height:90%;
-  }
+}

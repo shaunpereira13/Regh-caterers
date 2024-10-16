@@ -54,13 +54,14 @@ body {
 }
 
 .nav-links {
-  color: #fff;
+  color: #fff !important; /* Ensure links are white */
   display: flex;
   align-items: center;
   text-decoration: none;
   padding: 0.5rem 1rem;
   height: 100%;
   position: relative; /* To allow the ::after pseudo-element */
+  transition: color 0.3s ease; /* Smooth color transition */
 }
 
 .nav-links::after {
@@ -75,12 +76,16 @@ body {
   bottom: 0;
 }
 
+.nav-links:hover {
+  color: #fff !important; /* Keep hover color white */
+}
+
 .nav-links:hover::after {
   width: 100%; /* Expands the underline */
 }
 
 .fa-bars {
-  color: #fff;
+  color: orange; /* Change the menu icon color to orange */
 }
 
 .nav-links-mobile {
@@ -89,6 +94,7 @@ body {
 
 .menu-icon {
   display: none;
+  color: orange; /* Ensure the menu icon color is orange */
 }
 
 .navbar-logo-m {
@@ -137,10 +143,11 @@ body {
     justify-content: center;
     padding: 2rem;
     width: 100%;
+    color: #fff !important; /* Ensure white text in mobile view */
   }
 
   .nav-links:hover {
-    color: #242424;
+    color: #fff !important; /* Ensure hover stays white */
     border-radius: 0;
   }
 
@@ -157,6 +164,7 @@ body {
     font-size: 1.8rem;
     cursor: pointer;
     z-index: 99;
+    color: orange; /* Ensure the menu icon color is orange */
   }
 
   .fa-times {
@@ -172,8 +180,8 @@ body {
     width: 80%;
     text-decoration: none;
     font-size: 1.5rem;
-    background-color: transparent;
-    color: #fff;
+    background-color: white;
+    color: #fff !important; /* Ensure mobile link text is white */
     padding: 14px 20px;
     border: 1px solid #fff;
     transition: all 0.3s ease-out;
