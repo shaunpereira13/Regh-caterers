@@ -1,81 +1,79 @@
-.hero-banner
-{
-    background-image: url('/src/assets/herobanner.png');
-    background-size: cover;
-    background-position: center;
-    font-family: play-fair;
-    width:100%;
-    height: 90vh;
-    z-index:0;
-    margin-bottom: 20px;
-    
+.hero-banner {
+  background-image: url("/src/assets/herobanner.png");
+  background-size: cover;
+  background-position: center;
+  font-family: play-fair;
+  width: 100%;
+  height: 90vh;
+  z-index: 0;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
 }
 
-
-.hero-text
-{
-    font-size: 25px;
-    color:white;
-    text-align: left;
-    margin:0;
-    margin-left:5%;
-
+.hero-text {
+  font-size: 25px;
+  color: white;
+  text-align: left;
+  margin: 0;
+  margin-left: 5%;
 }
 
-.hero-banner
-{
-    display: flex;
-    align-items:center ;
-
-}
-.p-font
-{
-    font-weight:400;
+.p-font {
+  font-weight: 400;
 }
 
-.eye-brow
-{
-    display: flex;
-    font-family: 'Poppins',sans-serif;
-    margin:0 0;
+.eye-brow {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  margin: 0 0;
 }
 
-.eye-brow p{
-   margin-left: 0%;
-   font-size: 20px;
-   padding-left:7px;
+.eye-brow p {
+  margin-left: 0%;
+  font-size: 20px;
+  padding-left: 7px;
 }
 
-.eye-brow img
-{
-    margin:0 0;
-} 
-
-.buttons
-{
-    margin-top:15px;
-    display: flex;
-    gap:20px;
-    font-family: 'Poppins',sans-serif;
-    font-size: 22px;
+.eye-brow img {
+  margin: 0 0;
 }
 
-.hero-text h1{
-    font-family: Playfair Display;
-    padding:1rem 0 1rem  0 ;
-    letter-spacing: 1.5px;
-    font-weight: 500;
-    font-size: 55px;;
+.buttons {
+  margin-top: 15px;
+  display: flex;
+  gap: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
 }
 
-@media (max-width: 992px) {
-
+.hero-text h1 {
+  font-family: Playfair Display;
+  padding: 1rem 0 1rem 0;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+  font-size: 55px;
 }
 
+/* Media Queries for smaller screens */
 @media (max-width: 768px) {
-
+  .hero-text {
+    margin-top: 70px; /* Add top margin for screens smaller than 768px */
+  }
+  .buttons {
+    font-size: 16px; /* Reduce font size of buttons for smaller screens */
+    gap: 15px; /* Reduce gap between buttons */
+    padding: 8px 12px;
+  }
 }
 
 @media (max-width: 576px) {
-
+  .hero-text {
+    margin-top: 100px; /* Add more top margin for screens smaller than 576px */
+  }
+  .buttons {
+    font-size: 14px; /* Further reduce font size of buttons for very small screens */
+    gap: 20px; /* Further reduce gap between buttons */
+    padding: 2px 6px; /* Adjust padding for smaller buttons */
+  }
 }

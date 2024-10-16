@@ -40,7 +40,7 @@ body {
 .nav-menu {
   display: grid;
   grid-template-columns: repeat(7, auto);
-  grid-gap: 60px;
+  grid-gap: 20px;
   list-style: none;
   text-align: center;
   justify-content: end;
@@ -112,12 +112,13 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 100vh;
+    height: 100vh; /* Full viewport height */
     position: absolute;
     top: 0px;
     left: -100%;
     opacity: 1;
     transition: all 0.5s ease;
+    overflow-y: auto; /* Enable vertical scrolling */
   }
 
   .nav-menu.active {
@@ -127,8 +128,9 @@ body {
     bottom: 0;
     opacity: 1;
     transition: all 0.5s ease;
-    justify-content: center;
+    justify-content: flex-start; /* Ensure it starts from the top */
     z-index: 1;
+    overflow-y: auto; /* Ensure the active menu is scrollable */
   }
 
   .nav-links {
@@ -138,7 +140,6 @@ body {
   }
 
   .nav-links:hover {
-    background-color: #fff;
     color: #242424;
     border-radius: 0;
   }

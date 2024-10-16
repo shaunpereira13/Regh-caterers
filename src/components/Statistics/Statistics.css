@@ -1,35 +1,64 @@
 .statistics {
-    display: flex;
-    justify-content: space-between;
-    gap: 10%;
-    padding: 80px;
-    max-width: 1500px;
-    margin: 10px auto;
-    text-align: center;
+  display: flex;
+  justify-content: space-between;
+  gap: 10%; /* Space between items */
+  padding: 80px; /* Padding around the section */
+  max-width: 1500px; /* Max width for larger screens */
+  margin: 10px auto; /* Center the section */
+  text-align: center; /* Center text */
+  flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+}
+
+.stat-item h3 {
+  color: green; /* Header color */
+  font-size: 80px; /* Header font size */
+  font-weight: 400; /* Font weight */
+  margin-bottom: 5px; /* Margin below header */
+}
+
+.stat-item p {
+  color: #666; /* Paragraph color */
+}
+
+.line {
+  width: 100%; /* Make line full width */
+  justify-content: center; /* Center line */
+  margin: 20px 0; /* Margin above and below line */
+}
+
+.lineclass {
+  display: flex; /* Flex display for alignment */
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .statistics {
+    flex-direction: column; /* Stack items vertically on medium screens */
+    padding: 40px; /* Reduce padding */
+    gap: 5%; /* Reduce gap */
   }
 
-  
   .stat-item h3 {
-    color: green;
-    font-size: 80px;
-    font-weight: 400;
-    margin-bottom: 5px;
+    font-size: 60px; /* Smaller font size for headings */
   }
-  
+}
+
+@media screen and (max-width: 576px) {
+  .statistics {
+    padding: 20px; /* Further reduce padding */
+  }
+
+  .stat-item h3 {
+    font-size: 40px; /* Even smaller font size for small screens */
+  }
+
   .stat-item p {
-    color: #666;
-}
+    font-size: 0.9em; /* Adjust paragraph font size */
+  }
 
-.line
-{
-    width:1400px;
-    justify-content: center;
-    
-}
-
-.lineclass
-{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  .line {
+    width: 100%; /* Full width for line */
+  }
 }

@@ -1,42 +1,96 @@
-.chefs
-{
-    width:80vw;
-    height: 30vw;
-    border-radius: 5%;
-}
-.chef{
-    padding:50px 100px;
-    display:flex;
-    max-width: 1500px;
-    margin: 0 auto;
-}
-.desc{
-    display: flex;
-    flex-direction: column;
-    padding: 50px 50px;
-}
-.desc h1{
-    font-weight: 500;
-    font-size: 60px;
-    line-height: 78px;
-    padding-bottom: 20px;
-}
-.desc p{
-    font-size: 20px;
-    font-weight: 300;
-    padding-bottom: 20px;
-}
-.desc ul{
-    font-size: 20px;
-    font-weight: 300;
-    padding-bottom: 20px;
-    /* list-style:url('../../assets/Fire.png'); */
-    list-style:disc;
-    list-style-position: inside;
+.chefs {
+  width: 80vw;
+  height: auto; /* Change to auto for responsiveness */
+  border-radius: 5%;
+  overflow: hidden; /* Ensures that any overflowing content is hidden */
 }
 
-li
-{
-    list-style-type: none;
-    margin-bottom: 15px;
+.chef {
+  padding: 50px 100px;
+  display: flex;
+  max-width: 1500px;
+  margin: 0 auto;
+  align-items: flex-start; /* Align items at the start */
+}
+
+.desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align items */
+  text-align: center; /* Center align text */
+  padding: 50px 50px;
+  flex: 1; /* Allow this section to grow */
+}
+
+.desc h1 {
+  font-weight: 500;
+  font-size: 6vw; /* Responsive font size */
+  line-height: 1.2; /* Adjusted line height for spacing */
+  padding-bottom: 20px;
+}
+
+.desc p {
+  font-size: 20px;
+  font-weight: 300;
+  padding-bottom: 20px;
+}
+
+.desc ul {
+  font-size: 20px;
+  font-weight: 300;
+  padding-bottom: 20px;
+  list-style: disc;
+  list-style-position: inside;
+}
+
+li {
+  list-style-type: circle;
+  margin-bottom: 15px;
+}
+
+.chef img {
+  width: 100%; /* Make the image responsive */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Ensures the image does not affect surrounding elements */
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .chef img {
+    display: none; /* Remove images for small screens */
+  }
+
+  .desc {
+    padding: 20px; /* Adjust padding for smaller screens */
+  }
+
+  .desc h1 {
+    font-size: 7vw; /* Smaller font size for small screens */
+  }
+
+  .desc p {
+    font-size: 20px; /* Adjust paragraph size for smaller screens */
+    margin: 0 20px; /* Add left and right margin for smaller screens */
+    text-align: center; /* Center align the text */
+  }
+
+  .desc ul {
+    font-size: 20px; /* Adjust list size for smaller screens */
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .desc h1 {
+    font-size: 6.5vw; /* Smaller font size for very small screens */
+  }
+
+  .desc p {
+    font-size: 18px; /* Adjust paragraph size further for very small screens */
+    margin: 0 10px; /* Further adjust left and right margin for very small screens */
+    text-align: center; /* Center align the text */
+  }
+
+  .desc ul {
+    font-size: 18px; /* Adjust list size further for very small screens */
+  }
 }
